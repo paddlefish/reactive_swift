@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		446054B795B93C25C7930AEA /* Pods_reactive_siestaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50515B723ABF310ED3C4764A /* Pods_reactive_siestaTests.framework */; };
 		714BC18A1BC9620F00BEA8D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 714BC1891BC9620F00BEA8D8 /* main.m */; };
 		714BC18D1BC9620F00BEA8D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 714BC18C1BC9620F00BEA8D8 /* AppDelegate.m */; };
 		714BC1901BC9620F00BEA8D8 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714BC18F1BC9620F00BEA8D8 /* MasterViewController.m */; };
@@ -16,6 +17,8 @@
 		714BC19B1BC9620F00BEA8D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 714BC1991BC9620F00BEA8D8 /* LaunchScreen.storyboard */; };
 		714BC1A61BC9620F00BEA8D8 /* reactive_siestaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 714BC1A51BC9620F00BEA8D8 /* reactive_siestaTests.m */; };
 		714BC1B11BC9620F00BEA8D8 /* reactive_siestaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 714BC1B01BC9620F00BEA8D8 /* reactive_siestaUITests.m */; };
+		74CD06B7773B15421B63D12A /* Pods_reactive_siestaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3673D4EB4A869D003FD4E77E /* Pods_reactive_siestaUITests.framework */; };
+		B9B7954DFB5AB4240442F5B8 /* Pods_reactive_siesta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94B0D7B07E75EBB0371A9A1 /* Pods_reactive_siesta.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3673D4EB4A869D003FD4E77E /* Pods_reactive_siestaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reactive_siestaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50515B723ABF310ED3C4764A /* Pods_reactive_siestaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reactive_siestaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AED411976681E8C7B253F3D /* Pods-reactive_siestaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactive_siestaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-reactive_siestaUITests/Pods-reactive_siestaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7051E48CD74E5056012762E2 /* Pods-reactive_siestaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactive_siestaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-reactive_siestaTests/Pods-reactive_siestaTests.release.xcconfig"; sourceTree = "<group>"; };
 		714BC1851BC9620F00BEA8D8 /* reactive_siesta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactive_siesta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		714BC1891BC9620F00BEA8D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		714BC18B1BC9620F00BEA8D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +61,11 @@
 		714BC1AC1BC9620F00BEA8D8 /* reactive_siestaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reactive_siestaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		714BC1B01BC9620F00BEA8D8 /* reactive_siestaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reactive_siestaUITests.m; sourceTree = "<group>"; };
 		714BC1B21BC9620F00BEA8D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81A1766A5CA8E17FA3F94D22 /* Pods-reactive_siestaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactive_siestaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-reactive_siestaUITests/Pods-reactive_siestaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8D8B8AFE9A3DCC320799EB33 /* Pods-reactive_siestaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactive_siestaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-reactive_siestaTests/Pods-reactive_siestaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		98519442E0B0DA485D4C7798 /* Pods-reactive_siesta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactive_siesta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-reactive_siesta/Pods-reactive_siesta.debug.xcconfig"; sourceTree = "<group>"; };
+		E94B0D7B07E75EBB0371A9A1 /* Pods_reactive_siesta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reactive_siesta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30C23DF76691ED5BE4C49A5 /* Pods-reactive_siesta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactive_siesta.release.xcconfig"; path = "Pods/Target Support Files/Pods-reactive_siesta/Pods-reactive_siesta.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9B7954DFB5AB4240442F5B8 /* Pods_reactive_siesta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				446054B795B93C25C7930AEA /* Pods_reactive_siestaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74CD06B7773B15421B63D12A /* Pods_reactive_siestaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +103,8 @@
 				714BC1A41BC9620F00BEA8D8 /* reactive_siestaTests */,
 				714BC1AF1BC9620F00BEA8D8 /* reactive_siestaUITests */,
 				714BC1861BC9620F00BEA8D8 /* Products */,
+				8B717632D79CB9DB1AB1794A /* Pods */,
+				D8E57CF951FBA36B27BE57A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +162,29 @@
 			path = reactive_siestaUITests;
 			sourceTree = "<group>";
 		};
+		8B717632D79CB9DB1AB1794A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98519442E0B0DA485D4C7798 /* Pods-reactive_siesta.debug.xcconfig */,
+				F30C23DF76691ED5BE4C49A5 /* Pods-reactive_siesta.release.xcconfig */,
+				8D8B8AFE9A3DCC320799EB33 /* Pods-reactive_siestaTests.debug.xcconfig */,
+				7051E48CD74E5056012762E2 /* Pods-reactive_siestaTests.release.xcconfig */,
+				5AED411976681E8C7B253F3D /* Pods-reactive_siestaUITests.debug.xcconfig */,
+				81A1766A5CA8E17FA3F94D22 /* Pods-reactive_siestaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8E57CF951FBA36B27BE57A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E94B0D7B07E75EBB0371A9A1 /* Pods_reactive_siesta.framework */,
+				50515B723ABF310ED3C4764A /* Pods_reactive_siestaTests.framework */,
+				3673D4EB4A869D003FD4E77E /* Pods_reactive_siestaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 714BC1B51BC9620F00BEA8D8 /* Build configuration list for PBXNativeTarget "reactive_siesta" */;
 			buildPhases = (
+				D7CB08B58C6552D93572F0BA /* Check Pods Manifest.lock */,
 				714BC1811BC9620F00BEA8D8 /* Sources */,
 				714BC1821BC9620F00BEA8D8 /* Frameworks */,
 				714BC1831BC9620F00BEA8D8 /* Resources */,
+				E91E5CD4175A6C33CD83365A /* Embed Pods Frameworks */,
+				A764AAC541EC48638A04BBDB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 714BC1B81BC9620F00BEA8D8 /* Build configuration list for PBXNativeTarget "reactive_siestaTests" */;
 			buildPhases = (
+				036093CF7191BBA935CD9963 /* Check Pods Manifest.lock */,
 				714BC19D1BC9620F00BEA8D8 /* Sources */,
 				714BC19E1BC9620F00BEA8D8 /* Frameworks */,
 				714BC19F1BC9620F00BEA8D8 /* Resources */,
+				A99862E0A7B0363D6CBD2915 /* Embed Pods Frameworks */,
+				39ED363DDC083A4AABD8FD1A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 714BC1BB1BC9620F00BEA8D8 /* Build configuration list for PBXNativeTarget "reactive_siestaUITests" */;
 			buildPhases = (
+				EFA201E6DFDF8B5539CC5683 /* Check Pods Manifest.lock */,
 				714BC1A81BC9620F00BEA8D8 /* Sources */,
 				714BC1A91BC9620F00BEA8D8 /* Frameworks */,
 				714BC1AA1BC9620F00BEA8D8 /* Resources */,
+				3F96F110EA8211DF188163AC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,6 +317,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		036093CF7191BBA935CD9963 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		39ED363DDC083A4AABD8FD1A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-reactive_siestaTests/Pods-reactive_siestaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F96F110EA8211DF188163AC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-reactive_siestaUITests/Pods-reactive_siestaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A764AAC541EC48638A04BBDB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-reactive_siesta/Pods-reactive_siesta-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A99862E0A7B0363D6CBD2915 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-reactive_siestaTests/Pods-reactive_siestaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7CB08B58C6552D93572F0BA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E91E5CD4175A6C33CD83365A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-reactive_siesta/Pods-reactive_siesta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFA201E6DFDF8B5539CC5683 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		714BC1811BC9620F00BEA8D8 /* Sources */ = {
@@ -417,6 +588,7 @@
 		};
 		714BC1B61BC9620F00BEA8D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98519442E0B0DA485D4C7798 /* Pods-reactive_siesta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = reactive_siesta/Info.plist;
@@ -428,6 +600,7 @@
 		};
 		714BC1B71BC9620F00BEA8D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F30C23DF76691ED5BE4C49A5 /* Pods-reactive_siesta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = reactive_siesta/Info.plist;
@@ -439,6 +612,7 @@
 		};
 		714BC1B91BC9620F00BEA8D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D8B8AFE9A3DCC320799EB33 /* Pods-reactive_siestaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = reactive_siestaTests/Info.plist;
@@ -451,6 +625,7 @@
 		};
 		714BC1BA1BC9620F00BEA8D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7051E48CD74E5056012762E2 /* Pods-reactive_siestaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = reactive_siestaTests/Info.plist;
@@ -463,6 +638,7 @@
 		};
 		714BC1BC1BC9620F00BEA8D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AED411976681E8C7B253F3D /* Pods-reactive_siestaUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = reactive_siestaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -475,6 +651,7 @@
 		};
 		714BC1BD1BC9620F00BEA8D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A1766A5CA8E17FA3F94D22 /* Pods-reactive_siestaUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = reactive_siestaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -504,6 +681,7 @@
 				714BC1B71BC9620F00BEA8D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		714BC1B81BC9620F00BEA8D8 /* Build configuration list for PBXNativeTarget "reactive_siestaTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +690,7 @@
 				714BC1BA1BC9620F00BEA8D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		714BC1BB1BC9620F00BEA8D8 /* Build configuration list for PBXNativeTarget "reactive_siestaUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +699,7 @@
 				714BC1BD1BC9620F00BEA8D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
